@@ -1,0 +1,15 @@
+@import "src/assets/style/variables";
+
+.theApp {
+
+  &-body {
+    padding-top: 5rem;
+    // min-height: 150vh;
+    background-color: $body-bg;
+    color: $body-color;
+
+    @media (max-width: $md) {
+      padding-top: 4.5rem;
+    }
+  }
+}

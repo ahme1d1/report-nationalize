@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "utils.scss";
+@import "grid.scss";
+@import "override.scss";
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  ::-moz-selection {
+    background: $primary;
+  }
+
+  ::selection {
+    background: $primary;
+  }
+
+  font-family: $font-family-base;
+
+  font-size: 1rem;
+  overflow-x: hidden;
+}

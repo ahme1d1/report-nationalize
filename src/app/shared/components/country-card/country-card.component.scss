@@ -1,0 +1,13 @@
+.countryCard {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  &.newCountry {
+    background-color: #f3f8ff;
+    border-color: #3f88ff;
+  }
+}
